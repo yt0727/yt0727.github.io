@@ -1,0 +1,460 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .imglist>img {
+            width: 30%;
+            -webkit-transition: width 2s;
+            transition: width 2s;
+            /* 当鼠标上去时有推动的效果，时间为2s */
+            border-radius: 50px;
+        }
+        
+        .imglist>img:hover {
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 32%;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 50%;
+            /* 当鼠标上去时可显示椭圆型的图片 */
+        }
+        /* 影像加上動畫 */
+        
+        .imglist {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .container {
+            border-color: #e8ccc1;
+            border-style: dashed;
+            border-width: 1px;
+            padding: 25px 25px 25px 25px;
+            /* margin-left: 100px;*/
+            /*margin-right: 100px; */
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 70px;
+            margin-top: 5vh;
+            background-image: url(../img/107.jpg);
+            background-size: 120vw;
+            background-position-x: 20px;
+            background-position: right top;
+            background-attachment: scroll;
+        }
+        
+        .header {
+            overflow: hidden;
+            /* height: 250px; 将词句删掉才可以我的图像随着页面变而变*/
+            margin-bottom: 10px;
+        }
+        
+        .photo {
+            /* width: 250px;
+              height: 250px; */
+            /*此写法会将我头像大小锁死，无法根据页面大小而改变大小 */
+            width: 25vw;
+            height: 25vw;
+            background-image: url(../img/55.jpg);
+            background-size: 40vw;
+            background-position-x: -1vw;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .info {
+            margin-left: 5vw;
+            float: left;
+        }
+        
+        .name {
+            font-size: 2rem;
+            font-family: fantasy;
+            font-weight: 700;
+            text-shadow: 5px 5px 3px #d4d4d4;
+        }
+        
+        .xibie {
+            font-size: 2rem;
+            font-family: fantasy;
+            font-weight: 700;
+            text-shadow: 5px 5px 3px #d4d4d4;
+        }
+        
+        .xihao {
+            font-size: 2rem;
+            font-family: fantasy;
+            font-weight: 700;
+            text-shadow: 5px 5px 3px #d4d4d4;
+        }
+        
+        .mv {
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+        }
+        
+        .mv-pink {
+            background-color: #fa9999;
+            color: #fff;
+        }
+        
+        .mv-pink:hover {
+            background-color: #f86e6e;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .mv-purple {
+            background-color: #e285eb;
+            color: #fff;
+        }
+        
+        .mv-purple:hover {
+            background-color: #c45acf;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .mv-blue {
+            background-color: #78e6dc;
+            color: #fff;
+        }
+        
+        .mv-blue:hover {
+            background-color: #10d3bf;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .mv-tts {
+            background-color: #e75f93;
+            color: #fff;
+        }
+        
+        .mv-tts:hover {
+            background-color: #db3776;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .mv-an {
+            background-color: #a96cf0;
+            color: #fff;
+        }
+        
+        .mv-an:hover {
+            background-color: #9449f0;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .mv-oh {
+            background-color: #6c84f0;
+            color: #fff;
+        }
+        
+        .mv-oh:hover {
+            background-color: #3e5ad8;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz {
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+        }
+        
+        .dz-ty {
+            background-color: #fab499;
+            color: #fff;
+        }
+        
+        .dz-ty:hover {
+            background-color: #f78e68;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz-light {
+            background-color: #45f0f0;
+            color: #fff;
+        }
+        
+        .dz-light:hover {
+            background-color: #06c9c9;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz-why {
+            background-color: #5ee97c;
+            color: #fff;
+        }
+        
+        .dz-why:hover {
+            background-color: #29d44c;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz-fine {
+            background-color: #e7e95e;
+            color: #fff;
+        }
+        
+        .dz-fine:hover {
+            background-color: #e0e021;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz-mmly {
+            background-color: #5eb1e9;
+            color: #fff;
+        }
+        
+        .dz-mmly:hover {
+            background-color: #359de2;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .dz-rain {
+            background-color: #745757;
+            color: #fff;
+        }
+        
+        .dz-rain:hover {
+            background-color: #523c3c;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            border-radius: 20px;
+        }
+        
+        .lianxi {
+            font-size: 2rem;
+            font-family: fantasy;
+            font-weight: 700;
+            text-shadow: 5px 5px 3px #dbb1a7;
+        }
+        
+        .zhuanji {
+            font-size: 2rem;
+            font-family: fantasy;
+            font-weight: 700;
+            text-shadow: 5px 5px 3px #dbb1a7;
+        }
+        
+        div.info>div {
+            margin-top: 10px;
+            /*让info下面所有的div的上边的margin都设置为10px */
+        }
+        
+        div.info>div.name {
+            margin-top: 0px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .btn {
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+        }
+        
+        .btn-blue {
+            background-color: #4d5ea7;
+            color: #fff;
+            width: 7rem;
+            -webkit-transition: width 1s;
+            transition: width 1s;
+            /* 当鼠标上去时有推动的效果，时间为1s */
+            border-radius: 4px;
+        }
+        
+        .btn-blue:hover {
+            background-color: #324086;
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 7.5rem;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 20px;
+        }
+        
+        .btn-green {
+            background-color: #1d9d74;
+            color: #fff;
+            width: 5rem;
+            -webkit-transition: width 1s;
+            transition: width 1s;
+            /* 当鼠标上去时有推动的效果，时间为1s */
+            border-radius: 4px;
+        }
+        
+        .btn-green:hover {
+            background-color: #167f5e;
+            /* button 的動畫 CSS 效果 */
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 5.5rem;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 20px;
+        }
+        
+        .btn-yellow {
+            background-color: #F57C00;
+            color: #fff;
+            width: 5rem;
+            -webkit-transition: width 1s;
+            transition: width 1s;
+            /* 当鼠标上去时有推动的效果，时间为1s */
+            border-radius: 4px;
+        }
+        
+        .btn-yellow:hover {
+            background-color: #c56604;
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 5.5rem;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 20px;
+        }
+        
+        .btn-white {
+            background-color: #f00303;
+            color: #fff;
+            width: 5.5rem;
+            -webkit-transition: width 1s;
+            transition: width 1s;
+            /* 当鼠标上去时有推动的效果，时间为1s */
+            border-radius: 4px;
+        }
+        
+        .btn-white:hover {
+            background-color: #b60b0b;
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 6rem;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 20px;
+        }
+        
+        .btn-pink {
+            background-color: #f8e074;
+            color: #fff;
+            width: 7rem;
+            -webkit-transition: width 1s;
+            transition: width 1s;
+            /* 当鼠标上去时有推动的效果，时间为1s */
+            border-radius: 4px;
+        }
+        
+        .btn-pink:hover {
+            background-color: #f7c25f;
+            box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+            /*当鼠标上去时有阴影出现 */
+            width: 7.5rem;
+            /*当鼠标上去时图片变大 */
+            margin-right: 10px;
+            /* 当鼠标上去时可显示将右边的图片推开的效果 */
+            margin-left: 10px;
+            /* 当鼠标上去时可显示将左边的图片推开的效果 */
+            border-radius: 20px;
+        }
+        
+        .btn-lg {
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        
+        .btn-sm {
+            padding: 4px 6px;
+            font-size: 10px;
+        }
+        /* button 特定大小效果 */
